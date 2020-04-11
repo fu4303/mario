@@ -24,6 +24,12 @@ $("#avtar").animate({top: '28vh'},1000,() => {
                     $("#avtar").fadeOut(100);
                     setTimeout(()=>{
                         $(".header").fadeOut(1000);
+                        setTimeout(()=>{
+                            $("header").fadeIn(500);
+                        },1000);
+                        setTimeout(()=>{
+                            $(".dig-avatar").fadeIn(500);
+                        },500);
                     },500);
                     
                 });

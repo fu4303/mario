@@ -91,5 +91,16 @@ body,html,*
 
 }
 header{
-    
+    min-height: 20vh;
+    background: dodgerblue;
+    width: 100%;
+    display: none;
+    align-items: center;
+
+}
+
+.dig-avatar
+{
+    height: 20vh;
+    display: none;
 }
