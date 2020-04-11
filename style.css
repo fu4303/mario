@@ -9,7 +9,7 @@ body,html,*
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 1em;
+    padding: 2vh;
     overflow: hidden;
     height: 15vh;
 }
@@ -66,7 +66,7 @@ body,html,*
 .pipe
 {
     height: 30vh;
-
+    
     position: relative;
     left: 50vw;
 }
@@ -89,4 +89,7 @@ body,html,*
     align-self: flex-start;
     font-family: 'Cabin', sans-serif;
 
+}
+header{
+    
 }
