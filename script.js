@@ -1,6 +1,6 @@
 
 $("#avtar").animate({left: '9vw'},2000);
-$("#avtar").animate({top: '28vh'},1000,() => {
+$("#avtar").animate({top: '38vh'},1000,() => {
     $(".coin").fadeOut(0,() => {
         $(".name").fadeIn(500);
         setTimeout(()=>{
@@ -13,11 +13,11 @@ $("#avtar").animate({top: '28vh'},1000,() => {
                 if(viewportWidth>600)
                 {
                     $("#avtar").animate({left: '40vw'},2000);
-                    $("#avtar").animate({top: '10.5vh',left:'51.5vw'},500);
+                    $("#avtar").animate({top: '20.5vh',left:'51.5vw'},500);
                 }
                 else{
                     $("#avtar").animate({left: '25vw'},1000);
-                    $("#avtar").animate({top: '10.5vh',left:'55vw'},500);
+                    $("#avtar").animate({top: '20.5vh',left:'55vw'},500);
                 }
                 
                 $("#avtar").animate({top: '40vh'},1000,()=>{
@@ -25,11 +25,14 @@ $("#avtar").animate({top: '28vh'},1000,() => {
                     setTimeout(()=>{
                         $(".header").fadeOut(1000);
                         setTimeout(()=>{
-                            $("header").fadeIn(500);
+                            $("header").css({"display":"flex"});
+                            setTimeout(()=>{
+                                $(".dig-avatar").fadeIn(500);
+                                $(".heading").fadeIn(500);
+                               
+                            },500);
                         },1000);
-                        setTimeout(()=>{
-                            $(".dig-avatar").fadeIn(500);
-                        },500);
+                        
                     },500);
                     
                 });
@@ -41,7 +44,7 @@ $("#avtar").animate({top: '28vh'},1000,() => {
     
 });
 
-$("#avtar").animate({top: '40vh'},1000);
+$("#avtar").animate({top: '50vh'},1000);
 
 $( window ).scroll(function() {
     var value = window.screenY;

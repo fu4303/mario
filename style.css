@@ -3,7 +3,12 @@ body,html,*
     padding: 0em;
     margin: 0em;      
 }
-
+body{
+    background-image: url('images/brick.png');
+    background-size: 10vh;
+    background-repeat: repeat;
+    background-color:brown;
+}
 .sky
 {
     display: flex;
@@ -11,7 +16,7 @@ body,html,*
     align-items: center;
     padding: 2vh;
     overflow: hidden;
-    height: 15vh;
+    height: 25vh;
 }
 .cloud1
 {
@@ -29,12 +34,12 @@ body,html,*
 {
     position: absolute;
     height: 30vh;
-    top:40vh;
+    top:50vh;
 }
 .header
 {
     background: #2DBEF2;
-    border-bottom: 5vh solid firebrick;
+    border-bottom: 5vh solid limegreen;
     
     height:auto;
     width: 100%;
@@ -92,15 +97,30 @@ body,html,*
 }
 header{
     min-height: 20vh;
-    background: dodgerblue;
+    display: flex;
+    flex-direction: row;
+    color:white;
     width: 100%;
     display: none;
     align-items: center;
 
 }
-
+.heading{
+    font-size: 5vh;
+    color:white;
+    display: none;
+    position: absolute;
+    align-self: center;
+    left: 50vw;
+    
+    font-family: 'Cabin', sans-serif;
+}
 .dig-avatar
 {
     height: 20vh;
+    display: none;
+}
+.aboutme
+{
     display: none;
 }
