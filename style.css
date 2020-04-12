@@ -103,7 +103,10 @@ header{
     width: 100%;
     display: none;
     align-items: center;
-
+    background-image: url('images/brick.png');
+    background-size: 10vh;
+    background-repeat: repeat;
+    background-color:brown;
 }
 .heading{
     font-size: 5vh;
@@ -123,4 +126,14 @@ header{
 .aboutme
 {
     display: none;
+    background-image: url('images/brick.png');
+    background-size: 10vh;
+    background-repeat: repeat;
+    background-color:brown;
+    height: 79vh;
+    width: 100vw;
+}
+.myself
+{
+    color:green;
 }
