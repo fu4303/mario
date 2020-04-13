@@ -135,5 +135,10 @@ header{
 }
 .myself
 {
-    color:green;
+    padding: 3vh 3vh;
+    color: #00fa00;
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: monospace;
+    
 }
