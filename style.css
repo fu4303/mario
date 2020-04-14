@@ -1,16 +1,18 @@
-body,html,*
-{
+body,
+html,
+* {
     padding: 0em;
-    margin: 0em;      
+    margin: 0em;
 }
-body{
+
+body {
     background-image: url('images/brick.png');
     background-size: 10vh;
     background-repeat: repeat;
-    background-color:brown;
+    background-color: brown;
 }
-.sky
-{
+
+.sky {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -18,127 +20,159 @@ body{
     overflow: hidden;
     height: 25vh;
 }
-.cloud1
-{
+
+.cloud1 {
     position: relative;
     height: 10vh;
-    left : 40%;
+    left: 40%;
 }
-.cloud2
-{
+
+.cloud2 {
     position: relative;
-    left : 70%;
+    left: 70%;
     height: 10vh;
 }
-.avtar
-{
+
+.avtar {
     position: absolute;
     height: 30vh;
-    top:50vh;
+    top: 50vh;
 }
-.header
-{
+
+.avtar2 {
+    position: absolute;
+    height: 13vh;
+    bottom: 1vh;
+    display: none;
+}
+
+.pipe2 {
+    position: absolute;
+    height: 25vh;
+    bottom: 0vh;
+    right: 0vh;
+    display: none;
+    z-index: 1;
+}
+
+.header {
     background: #2DBEF2;
     border-bottom: 5vh solid limegreen;
-    
-    height:auto;
+    height: auto;
     width: 100%;
-
 }
+
 .sun {
     height: 16vh;
     width: 16vh;
-    
     background-color: #FAFD0F;
     border-radius: 50%;
     display: inline-block;
 }
-.ground
-{
+
+.ground {
     display: flex;
     align-items: flex-end;
     height: 50vh;
     overflow: hidden;
     /* justify-content: space-around; */
 }
-.tree
-{
+
+.tree {
     height: 30vh;
     position: relative;
     left: 70vw;
-    justify-content: flex-end;    
+    justify-content: flex-end;
 }
-.pipe
-{
+
+.pipe {
     height: 30vh;
-    
     position: relative;
     left: 50vw;
 }
-.coin
-{
+
+.coin {
     height: 10vh;
-    
     position: absolute;
     left: 10vw;
     align-self: flex-start;
 }
-.name
-{
+
+.name {
     font-size: 5vh;
-    color:white;
+    color: white;
     display: none;
     position: absolute;
     align-self: center;
     left: 10vw;
     align-self: flex-start;
     font-family: 'Cabin', sans-serif;
-
 }
-header{
+
+header {
     min-height: 20vh;
     display: flex;
     flex-direction: row;
-    color:white;
+    color: white;
     width: 100%;
     display: none;
     align-items: center;
     background-image: url('images/brick.png');
     background-size: 10vh;
     background-repeat: repeat;
-    background-color:brown;
+    background-color: brown;
 }
-.heading{
+
+.heading {
     font-size: 5vh;
-    color:white;
+    color: white;
     display: none;
     position: absolute;
     align-self: center;
     left: 50vw;
-    
     font-family: 'Cabin', sans-serif;
 }
-.dig-avatar
-{
+
+.dig-avatar {
     height: 20vh;
     display: none;
 }
-.aboutme
-{
+
+.aboutme {
     display: none;
     background-image: url('images/brick.png');
     background-size: 10vh;
     background-repeat: repeat;
-    background-color:brown;
+    background-color: brown;
     height: 79vh;
     width: 100vw;
 }
-.myself
-{
+
+.myself {
     padding: 3vh 3vh;
     color: #00fa00;
     font-size: 3vh;
     font-weight: bold;
     font-family: monospace;
-    
+}
+
+.myself button {
+    color: #00fa00;
+    font-size: 3vh;
+    background: transparent;
+    border: 0em;
+    font-weight: bold;
+}
+
+.tab {
+    padding-left: 7vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .myself {
+        font-size: 2vh;
+    }
+    .tab {
+        padding-left: 5vh;
+    }
 }
