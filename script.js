@@ -61,6 +61,7 @@ $(window).scroll(function() {
 });
 
 var i = 0;
+var j = 0;
 
 var speed = 50;
 
@@ -79,12 +80,13 @@ function typeWriter() {
         i++;
         setTimeout(typeWriter, speed);
         if (i == txt.length)
-            document.getElementById("myself").innerHTML += "} </p> <br><button onclick='gotoProjects()' id='projects-btn' value='&gt;  Show Projects'>&gt;  Show Projects</button> ";
+            document.getElementById("myself").innerHTML += "} </p> <br><button onclick='gotoProjects()' id='projects-btn' value='&gt;  Show Projects'>&gt;  Show Projects</button> <br><button onclick='opemResume()' id='resume-btn' value='&gt;  Resume'>&gt;  Resume</button> ";
     }
 }
 
 function gotoProjects() {
     $("#projects-btn").fadeOut(50);
+    $("#resume-btn").fadeOut(50);
     $(".dig-avatar").fadeOut(500);
     $(".pipe2").fadeIn(500);
     $(".avtar2").fadeIn(500);
@@ -92,6 +94,38 @@ function gotoProjects() {
     setTimeout(() => {
         $(".avtar2").fadeOut(200);
         $("#aboutme-page").fadeOut(500);
+        setTimeout(() => {
+            projects();
+        }, 500);
     }, 1700);
+}
+
+function projects() {
+    $(".water").fadeIn(500);
+    $(".pipe3").fadeIn(500);
+    setTimeout(() => {
+
+        $(".pipe3").effect("bounce", { times: 3 }, 1000);
+        $(".avtar3").fadeIn(50);
+        $(".avtar3").animate({ top: '80vh' }, 1000);
+        setTimeout(() => {
+            $(".pipe3").fadeOut(500);
+            $(".project-title").fadeIn(1000);
+        }, 1000);
+    }, 500);
+}
+
+function opemResume() {
+    window.open("https://www.tinyfor.me/mohitresume", "_self");
+}
+
+function floating() {
+    if (j == 0) {
+        $(".avtar3").animate({ left: '70vw' }, 300);
+        j = 1;
+    } else {
+        $(".avtar3").animate({ right: '70vw' }, 300);
+        j = 0;
+    }
 
 }

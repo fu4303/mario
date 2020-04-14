@@ -46,6 +46,14 @@ body {
     display: none;
 }
 
+.avtar3 {
+    position: absolute;
+    height: 10vh;
+    top: 1vh;
+    left: 3vh;
+    display: none;
+}
+
 .pipe2 {
     position: absolute;
     height: 25vh;
@@ -168,11 +176,54 @@ header {
     padding-left: 7vh;
 }
 
+.water {
+    background: #0da5ff;
+    height: 93vh;
+    border-bottom: 7vh solid limegreen;
+    display: none;
+}
+
+.pipe3 {
+    display: none;
+    height: 20vh;
+    position: absolute;
+    top: 0vh;
+    left: 1vh;
+    z-index: 1;
+}
+
+.project-title {
+    font-size: 7vh;
+    color: white;
+    position: absolute;
+    top: 10vh;
+    left: 5vh;
+    font-family: 'roboto';
+    display: none;
+}
+
+.card {
+    background: white;
+    opacity: 0.5;
+    color: #0066FF;
+    font-family: 'Cabin', sans-serif;
+    position: absolute;
+    height: 25vh;
+    top: 10vh;
+    width: 70vh;
+    left: 20vh;
+    border-radius: 1em;
+}
+
 @media only screen and (max-width: 600px) {
     .myself {
         font-size: 2vh;
     }
     .tab {
         padding-left: 5vh;
+    }
+    .card {
+        height: 20vh;
+        width: 35vh;
     }
 }
