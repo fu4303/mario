@@ -202,17 +202,59 @@ header {
     display: none;
 }
 
+.projects {
+    display: flex;
+    padding-top: 10vh;
+    padding-left: 15vw;
+    flex-wrap: wrap;
+    max-height: 80vh;
+    overflow-y: scroll;
+}
+
 .card {
-    background: white;
-    opacity: 0.5;
+    background: rgba(255, 255, 255, 0.5);
     color: #0066FF;
     font-family: 'Cabin', sans-serif;
-    position: absolute;
-    height: 25vh;
-    top: 10vh;
-    width: 70vh;
-    left: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    min-height: 25vh;
+    padding: 1vh;
+    width: 40vw;
     border-radius: 1em;
+    margin: 1vh;
+}
+
+.project-btn {
+    color: blue;
+    background: white;
+    width: 25vh;
+    border: 0;
+    height: 5vh;
+    margin-top: 2vh;
+    font-size: 2vh;
+    border-radius: 0.5em;
+    font-weight: 600;
+}
+
+.project-btns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.projects::-webkit-scrollbar {
+    display: none;
+}
+
+.card p {
+    font-size: 3vh;
+}
+
+.project-img {
+    width: 10vh;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 600px) {
@@ -223,7 +265,23 @@ header {
         padding-left: 5vh;
     }
     .card {
-        height: 20vh;
-        width: 35vh;
+        min-height: 20vh;
+        width: 80vw;
+    }
+    .projects {
+        display: flex;
+        padding-top: 2vh;
+        padding-left: 10vh;
+        flex-wrap: wrap;
+        height: 80vh;
+        overflow-y: scroll;
+    }
+    .card p {
+        font-size: 2vh;
+    }
+    .project-btn {
+        font-size: 2vh;
+        height: 4vh;
+        margin-top: 1vh;
     }
 }

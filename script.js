@@ -111,6 +111,7 @@ function projects() {
         setTimeout(() => {
             $(".pipe3").fadeOut(500);
             $(".project-title").fadeIn(1000);
+            $("#project-wrapper").fadeIn(1000);
         }, 1000);
     }, 500);
 }
