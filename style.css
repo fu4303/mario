@@ -170,6 +170,7 @@ header {
     background: transparent;
     border: 0em;
     font-weight: bold;
+    font-family: monospace;
 }
 
 .tab {
@@ -227,7 +228,7 @@ header {
 }
 
 .project-btn {
-    color: blue;
+    color: darkblue;
     background: white;
     width: 25vh;
     border: 0;
@@ -255,6 +256,21 @@ header {
 .project-img {
     width: 10vh;
     margin: 0 auto;
+}
+
+.next-btn {
+    background: transparent;
+    border: 0;
+    color: white;
+    font-size: 3vh;
+    font-weight: bold;
+    position: absolute;
+    top: 85vh;
+    left: 60%;
+}
+
+.next-btn img {
+    height: 3vh;
 }
 
 @media only screen and (max-width: 600px) {

@@ -130,3 +130,7 @@ function floating() {
     }
 
 }
+
+function openLink(str) {
+    window.open(str, "_blank");
+}
