@@ -1,5 +1,5 @@
 animate();
-// gotoProjects();
+gotoProjects();
 
 function animate() {
 
@@ -113,6 +113,11 @@ function projects() {
             $(".pipe3").fadeOut(500);
             $(".project-title").fadeIn(1000);
             $("#project-wrapper").fadeIn(1000);
+            setTimeout(() => {
+
+                $(".next-btn2").effect("pulsate", { times: 4 }, 500);
+                $(".next-btn").effect("pulsate", { times: 4 }, 500);
+            }, 1200);
         }, 1000);
     }, 500);
 }

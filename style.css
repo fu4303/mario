@@ -264,17 +264,46 @@ header {
     border: 0;
     color: white;
     font-size: 3vh;
+    font-family: roboto;
     font-weight: bold;
     position: absolute;
-    top: 85vh;
-    left: 60%;
+    top: 88vh;
+    display: none;
+    left: 85%;
+}
+
+.next-btn2 {
+    background: transparent;
+    border: 0;
+    color: white;
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: roboto;
+    position: absolute;
+    top: 83vh;
+    display: none;
+    left: 72%;
 }
 
 .next-btn img {
     height: 3vh;
 }
 
+.next-btn2 img {
+    height: 3vh;
+}
+
 @media only screen and (max-width: 1700px) {
+    .next-btn2 {
+        font-size: 2vh;
+        left: 40%;
+        top: 85vh;
+    }
+    .next-btn {
+        left: 66%;
+        top: 88vh;
+        font-size: 2vh;
+    }
     .myself {
         font-size: 2vh;
     }
