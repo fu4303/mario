@@ -293,7 +293,7 @@ header {
     height: 3vh;
 }
 
-@media only screen and (max-width: 110px) {
+@media only screen and (max-width: 1100px) {
     .next-btn2 {
         font-size: 2vh;
         left: 40%;
