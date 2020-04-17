@@ -1,5 +1,5 @@
 animate();
-gotoProjects();
+// gotoProjects();
 
 function animate() {
 
