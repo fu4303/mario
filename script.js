@@ -1,4 +1,5 @@
 animate();
+// gotoProjects();
 
 function animate() {
 
@@ -13,7 +14,7 @@ function animate() {
                 setTimeout(() => {
                     $(".name").fadeOut(500);
                     var viewportWidth = $(window).width();
-                    if (viewportWidth > 600) {
+                    if (viewportWidth > 1700) {
                         $("#avtar").animate({ left: '40vw' }, 2000);
                         $("#avtar").animate({ top: '20.5vh', left: '51.5vw' }, 500);
                     } else {
@@ -117,7 +118,7 @@ function projects() {
 }
 
 function opemResume() {
-    window.open("https://www.tinyfor.me/mohitresume", "_self");
+    window.open("https://www.tinyfor.me/mohitresume", "_blank");
 }
 
 function floating() {
