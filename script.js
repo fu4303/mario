@@ -1,6 +1,6 @@
 var viewportWidth = $(window).width();
-// animate();
-flagAnimation();
+animate();
+// flagAnimation();
 
 function animate() {
 
