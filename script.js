@@ -170,6 +170,12 @@ function flagAnimation() {
                 $(".flag").fadeIn(500);
                 $(".flag-text").fadeIn(500);
                 $("#avtar-last").animate({ left: '50vh' }, 300);
+                $(".name2").fadeIn(500);
+                setTimeout(() => {
+                    $(".social-links").css({ "display": "flex" });
+                }, 500);
+
+
             }, 400);
         }, 1000);
     } else {
@@ -185,11 +191,11 @@ function flagAnimation() {
                 setTimeout(() => {
                     $(".flag").fadeIn(500);
                     $(".flag-text").fadeIn(500);
+                    $(".name2").fadeIn(500);
+                    setTimeout(() => {
+                        $(".social-links").css({ "display": "flex" });
+                    }, 500);
                 }, 500);
-
-
-
-                // $("#avtar-last").animate({ left: '50vh' }, 300);
             }, 400);
         }, 1000);
     }

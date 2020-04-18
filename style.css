@@ -332,6 +332,47 @@ header {
     align-self: flex-start;
 }
 
+.name2 {
+    font-size: 5vh;
+    color: yellow;
+    display: none;
+    position: absolute;
+    align-self: center;
+    left: 70vh;
+    top: 50vh;
+    align-self: flex-start;
+    font-family: 'Cabin', sans-serif;
+}
+
+.social-links {
+    align-self: start;
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 43vh;
+    flex-wrap: wrap;
+    width: 70vh;
+    justify-content: center;
+    align-items: center;
+    top: 30vh;
+    height: auto;
+}
+
+.social-links button {
+    font-size: 2.5vh;
+    padding: 1vh;
+    width: 20vh;
+    margin: 1vh;
+    background-color: white;
+    font-family: 'Cabin', sans-serif;
+    border: 0;
+    border-radius: 0.2em;
+}
+
+.social-links button img {
+    height: 3vh;
+}
+
 .flag-text span {
     color: red;
     font-size: 3vh;
@@ -341,11 +382,43 @@ header {
     .flag-text {
         font-size: 2vh;
         color: white;
-        position: relative;
-        left: -18.5vh;
-        top: 14vh;
+        position: absolute;
+        left: 4vh;
+        top: 43vh;
         display: none;
         align-self: flex-start;
+    }
+    .social-links button {
+        font-size: 2vh;
+        padding: 1vh;
+        width: 20vh;
+        margin: 0.4vh;
+        background-color: white;
+        font-family: 'Cabin', sans-serif;
+        border: 0;
+        border-radius: 0.2em;
+    }
+    .social-links {
+        align-self: start;
+        display: flex;
+        position: relative;
+        align-items: center;
+        left: -3vh;
+        flex-wrap: wrap;
+        width: 70vh;
+        top: 23vh;
+        height: auto;
+    }
+    .name2 {
+        font-size: 3.5vh;
+        color: yellow;
+        display: none;
+        position: absolute;
+        align-self: center;
+        left: 19vh;
+        top: 47vh;
+        align-self: flex-start;
+        font-family: 'Cabin', sans-serif;
     }
     .avtar-last {
         position: absolute;
