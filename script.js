@@ -180,7 +180,7 @@ function flagAnimation() {
             $("#avtar-last").animate({ top: '70vh' }, 400);
             setTimeout(() => {
                 $("#avtar-last").attr("src", "images/avatar.png");
-                $(".pole").animate({ height: '50vh', left: '1vh' }, 500);
+                $(".pole").animate({ height: '60vh', left: '1vh' }, 500);
                 $("#avtar-last").animate({ left: '5vh' }, 400);
                 setTimeout(() => {
                     $(".flag").fadeIn(500);

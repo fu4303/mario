@@ -307,7 +307,7 @@ header {
     height: 3vh;
 }
 
-<<<<<<< HEAD .pole {
+.pole {
     height: 60vh;
     position: relative;
     left: 41vh;
@@ -343,7 +343,7 @@ header {
         color: white;
         position: relative;
         left: -18.5vh;
-        top: 25vh;
+        top: 14vh;
         display: none;
         align-self: flex-start;
     }
@@ -361,8 +361,8 @@ header {
         align-self: flex-start;
         height: 12vh;
         position: relative;
-        left: -0.9vh;
-        top: 12vh;
+        left: -1.2vh;
+        top: 1vh;
         display: none;
     }
     .next-btn2 {
