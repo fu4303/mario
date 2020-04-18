@@ -69,7 +69,7 @@ var speed = 50;
 
 
 function typeWriter() {
-    var txt = '/ <"name" : "Mohit Tanwani",/<"introduction" : "I am a full stack developer and I have Master Degree in Information and Technology. I am currently working on MERN stack",/<"email" : "iammohittanwani@gmail.com",/<"Location" : "Ahmedabad, India",/<"Hobbies" : "Photography and Cinematography"  //';
+    var txt = '/ <"name" : "Mohit Tanwani",/<"introduction" : "I am a full stack developer and I have a Master Degree in Information and Technology. I am currently working on MERN stack",/<"email" : "iammohittanwani@gmail.com",/<"location" : "Ahmedabad, India",/<"hobbies" : "Photography and Cinematography"  //';
     if (i == 0)
         document.getElementById("myself").innerHTML += "{<p class='tab' id='tab'> ";
     if (i < txt.length) {
@@ -145,12 +145,14 @@ function openLink(str) {
 function gotoSocialLinks() {
     $(".next-btn2").fadeOut(10);
     $(".next-btn").fadeOut(10);
+    $("#avtar-last").attr("src", "images/avtar-pole.png");
     $(".avtar3").animate({ left: '90vw' }, 1500);
     setTimeout(() => {
 
         $("body").css({ 'background': 'brown', 'background-image': 'url(images/brick.png)', 'background-size': '10vh' });
         $(".water").fadeOut(500);
         $("#page3").fadeIn(500);
+        $("#avtar-last").attr("src", "images/avatar.png");
         setTimeout(() => {
             flagAnimation();
         }, 600);
