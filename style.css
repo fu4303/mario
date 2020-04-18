@@ -1,4 +1,4 @@
-body,
+    body,
 html,
 * {
     padding: 0em;
@@ -365,40 +365,3 @@ header {
         top: 12vh;
         display: none;
     }
-    .next-btn2 {
-        font-size: 2vh;
-        left: 40%;
-        top: 85vh;
-    }
-    .next-btn {
-        left: 66%;
-        top: 88vh;
-        font-size: 2vh;
-    }
-    .myself {
-        font-size: 2vh;
-    }
-    .tab {
-        padding-left: 5vh;
-    }
-    .card {
-        min-height: 20vh;
-        width: 80vw;
-    }
-    .projects {
-        display: flex;
-        padding-top: 2vh;
-        padding-left: 10vh;
-        flex-wrap: wrap;
-        height: 80vh;
-        overflow-y: scroll;
-    }
-    .card p {
-        font-size: 2vh;
-    }
-    .project-btn {
-        font-size: 2vh;
-        height: 4vh;
-        margin-top: 1vh;
-    }
-}
