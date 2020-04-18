@@ -1,5 +1,6 @@
-animate();
-// gotoProjects();
+var viewportWidth = $(window).width();
+// animate();
+flagAnimation();
 
 function animate() {
 
@@ -13,8 +14,8 @@ function animate() {
                 $(".name").fadeIn(500);
                 setTimeout(() => {
                     $(".name").fadeOut(500);
-                    var viewportWidth = $(window).width();
-                    if (viewportWidth > 1700) {
+
+                    if (viewportWidth > 1100) {
                         $("#avtar").animate({ left: '40vw' }, 2000);
                         $("#avtar").animate({ top: '20.5vh', left: '51.5vw' }, 500);
                     } else {
@@ -139,4 +140,58 @@ function floating() {
 
 function openLink(str) {
     window.open(str, "_blank");
+}
+
+function gotoSocialLinks() {
+    $(".next-btn2").fadeOut(10);
+    $(".next-btn").fadeOut(10);
+    $(".avtar3").animate({ left: '90vw' }, 1500);
+    setTimeout(() => {
+
+        $("body").css({ 'background': 'brown', 'background-image': 'url(images/brick.png)', 'background-size': '10vh' });
+        $(".water").fadeOut(500);
+        $("#page3").fadeIn(500);
+        setTimeout(() => {
+            flagAnimation();
+        }, 600);
+    }, 1300);
+
+}
+
+function flagAnimation() {
+    if (viewportWidth > 1100) {
+        $("#avtar-last").animate({ left: '25vh' }, 700);
+        $("#avtar-last").animate({ top: '30vh', left: '42vh' }, 300);
+        setTimeout(() => {
+            $("#avtar-last").attr("src", "images/avtar-pole.png");
+            $("#avtar-last").animate({ top: '60vh' }, 400);
+            setTimeout(() => {
+                $("#avtar-last").attr("src", "images/avatar.png");
+                $(".flag").fadeIn(500);
+                $(".flag-text").fadeIn(500);
+                $("#avtar-last").animate({ left: '50vh' }, 300);
+            }, 400);
+        }, 1000);
+    } else {
+        $("#avtar-last").animate({ left: '1vh' }, 700);
+        $("#avtar-last").animate({ top: '44vh', left: '10vh' }, 300);
+        setTimeout(() => {
+            $("#avtar-last").attr("src", "images/avtar-pole.png");
+            $("#avtar-last").animate({ top: '70vh' }, 400);
+            setTimeout(() => {
+                $("#avtar-last").attr("src", "images/avatar.png");
+                $(".pole").animate({ height: '50vh', left: '1vh' }, 500);
+                $("#avtar-last").animate({ left: '5vh' }, 400);
+                setTimeout(() => {
+                    $(".flag").fadeIn(500);
+                    $(".flag-text").fadeIn(500);
+                }, 500);
+
+
+
+                // $("#avtar-last").animate({ left: '50vh' }, 300);
+            }, 400);
+        }, 1000);
+    }
+
 }

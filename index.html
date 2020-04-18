@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="header">
+    <!-- <div class="header">
         <div class="sky">
             <span class="sun"></span>
             <img src="images/cloud.png" class="cloud1" />
@@ -50,8 +50,8 @@
         <h1 class="project-title">
             P<br>R<br>O<br>J<br>E<br>C<br>T<br>S
         </h1>
-        <button class="next-btn2">More Projects <img src="images/fish2.png" /></button>
-        <button class="next-btn">Social Links <img src="images/fish1.png" /></button>
+        <button class="next-btn2" onclick="openLink('https:\/\/cuttopoint.com\/tools')">More Projects <img src="images/fish2.png" /></button>
+        <button class="next-btn" onclick="gotoSocialLinks()">Social Links <img src="images/fish1.png" /></button>
 
         <div id="project-wrapper" style="display: none;">
             <div class="projects">
@@ -79,7 +79,7 @@
                     </p>
                     <div class="project-btns">
                         <button class="project-btn" onclick="openLink('https:\/\/cuttopoint.com\/')">Live Demo &#127758;</button>
-                        <!-- <button class="project-btn">Source code <img src="images/git.png" style="height: 2vh;" /></button> -->
+
                     </div>
                 </div>
                 <div class="card">
@@ -93,8 +93,23 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
+    <div class="header" id="page3">
+        <div class="sky">
+            <span class="sun"></span>
+            <img src="images/cloud.png" class="cloud1" />
+            <img src="images/cloud.png" class="cloud2" />
 
+        </div>
+        <img src="images/avatar.png" id="avtar-last" class="avtar-last" />
+        <div class="ground2">
+            <img src="images/pole.png" class="pole" />
+            <img src="images/flag.png" class="flag" />
+            <h1 class="flag-text">Made with <span>&hearts;</span> in India</h1>
+        </div>
+
+
+    </div>
 
 </body>
 <script src="script.js"></script>
