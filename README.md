@@ -10,4 +10,4 @@
  **Information about code**
  
  - Images folder contains all the images/svgs.
- - index.html has all the html code, style.css has all the css code and script.js has all the javascript code.
+ - `index.html` has all the html code, `style.css` has all the css code and `script.js` has all the javascript code.
