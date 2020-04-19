@@ -10,7 +10,7 @@ function animate() {
             $(".name").fadeIn(500);
             setTimeout(() => {
                 $(".name").hide();
-                $(".name").html("I am<br> Mohit Tanwani");
+                $(".name").html("Welcome to my Portfolio");
                 $(".name").fadeIn(500);
                 setTimeout(() => {
                     $(".name").fadeOut(500);
@@ -69,7 +69,7 @@ var speed = 50;
 
 
 function typeWriter() {
-    var txt = '/ <"name" : "Mohit Tanwani",/<"introduction" : "I am a full stack developer and I have a Master Degree in Information and Technology. I am currently working on MERN stack",/<"email" : "iammohittanwani@gmail.com",/<"location" : "Ahmedabad, India",/<"hobbies" : "Photography and Cinematography"  //';
+    var txt = '/ <"name" : "Mohit Tanwani",/<"introduction" : "I am a full stack developer and I have a Masters Degree in Information and Technology. I am currently working on MERN stack",/<"email" : "iammohittanwani@gmail.com",/<"location" : "Ahmedabad, India",/<"hobbies" : "Photography and Cinematography"  //';
     if (i == 0)
         document.getElementById("myself").innerHTML += "{<p class='tab' id='tab'> ";
     if (i < txt.length) {
