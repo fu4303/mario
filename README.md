@@ -4,8 +4,8 @@
  
  **How to clone**
  
- - open terminal/cmd write this `git clone https://github.com/tanwanimohit/tanwanimohit.github.io.git`
- - that's it.
+ - Open terminal/cmd write this `git clone https://github.com/tanwanimohit/tanwanimohit.github.io.git`
+ - That's it.
  
  **Information about code**
  
