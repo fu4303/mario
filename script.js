@@ -69,7 +69,7 @@ var speed = 50;
 
 
 function typeWriter() {
-    var txt = '/ <"name" : "Mohit Tanwani",/<"introduction" : "I am a full stack developer and I have a Masters Degree in Information and Technology. I am currently working on MERN stack",/<"email" : "iammohittanwani@gmail.com",/<"location" : "Ahmedabad, India",/<"hobbies" : "Photography and Cinematography"  //';
+    var txt = '/ <"name" : "Alec Campbell",/<"introduction" : "I am a man with no plan ",/<"email" : "iarenotamnot@gmail.com",/<"location" : "Somewhere",/<"hobbies" : "Slowly living"  //';
     if (i == 0)
         document.getElementById("myself").innerHTML += "{<p class='tab' id='tab'> ";
     if (i < txt.length) {
