@@ -10,7 +10,7 @@ function animate() {
             $(".name").fadeIn(500);
             setTimeout(() => {
                 $(".name").hide();
-                $(".name").html("Welcome to my Portfolio");
+                $(".name").html("Hurry Up and Follow Me");
                 $(".name").fadeIn(500);
                 setTimeout(() => {
                     $(".name").fadeOut(500);
