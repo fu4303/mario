@@ -208,7 +208,7 @@ header {
 }
 
 .project-title {
-    font-size: 6vh;
+    font-size: 7vh;
     color: 7400B8;
     position: absolute;
     top: 8vh;
@@ -219,8 +219,8 @@ header {
 
 .projects {
     display: flex;
-    padding-top: 10vh;
-    padding-left: 12vw;
+    padding-top: 6vh;
+    padding-left: 6vw;
     flex-wrap: wrap;
     max-height: 80vh;
     overflow-y: scroll;
@@ -232,24 +232,24 @@ header {
     font-family: 'Cabin', sans-serif;
     display: flex;
     flex-direction: column;
-    align-content: space-evenly;
-    justify-content: space-evenly;
+    align-content: center;
+    justify-content: center;
     min-height: 18vh;
     padding: 1vh;
     width: 25vw;
-    border-radius: 1em;
+    border-radius: 8px;
     margin: 5vh;
 }
 
 .project-btn {
     color: darkblue;
-    background: purple;
+    background: 5E60CE;
     width: 18vh;
     border: 0;
     height: 5vh;
     margin-top: 2vh;
     font-size: 2vh;
-    border-radius: 0.5em;
+    border-radius: 8px;
     font-weight: 600;
 }
 
