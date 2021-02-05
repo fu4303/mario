@@ -193,8 +193,6 @@ header {
 
 .water {
     background: #0da5ff;
-    height: 93vh;
-    border-bottom: 7vh solid limegreen;
     display: none;
 }
 
@@ -217,7 +215,7 @@ header {
 
 .projects {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -227,8 +225,8 @@ header {
     background-color: #80ffdb;
     border-radius:8px;
     margin:10px;
-    width:130px;
-    height:130px;
+    width:auto;
+    height:auto;
     justify-content: center;
     align-items: center;
     display:flex;
