@@ -208,11 +208,11 @@ header {
 }
 
 .project-title {
-    font-size: 7vh;
+    font-size: 6vh;
     color: 7400B8;
     position: absolute;
-    top: 10vh;
-    left: 5vh;
+    top: 8vh;
+    left: 8vh;
     font-family: 'roboto';
     display: none;
 }
@@ -232,11 +232,11 @@ header {
     font-family: 'Cabin', sans-serif;
     display: flex;
     flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    min-height: 25vh;
-    padding: 5vh;
-    width: 30vw;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    min-height: 18vh;
+    padding: 1vh;
+    width: 25vw;
     border-radius: 1em;
     margin: 5vh;
 }
