@@ -211,34 +211,29 @@ header {
     font-size: 7vh;
     color: 7400B8;
     position: absolute;
-    top: 8vh;
-    left: 8vh;
     font-family: 'roboto';
     display: none;
 }
 
 .projects {
-    display: flex;
-    padding-top: 6vh;
-    padding-left: 6vw;
+    display:flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    max-height: 80vh;
-    overflow-y: scroll;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
-    background: rgba(147, 88, 175, 0.5);
-    color: #32d2dd;
-    font-family: 'Cabin', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+    background-color: #80ffdb;
+    border-radius:8px;
+    margin:10px;
+    width:130px;
+    height:130px;
     justify-content: center;
-    min-height: 18vh;
-    padding: 1vh;
-    width: 25vw;
-    border-radius: 8px;
-    margin: 5vh;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    box-shadow:10px 10px 20px gray;
 }
 
 .project-btn {
