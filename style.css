@@ -235,16 +235,16 @@ header {
     align-content: center;
     justify-content: center;
     min-height: 25vh;
-    padding: 1vh;
-    width: 40vw;
+    padding: 5vh;
+    width: 30vw;
     border-radius: 1em;
-    margin: 1vh;
+    margin: 5vh;
 }
 
 .project-btn {
     color: darkblue;
-    background: white;
-    width: 25vh;
+    background: purple;
+    width: 18vh;
     border: 0;
     height: 5vh;
     margin-top: 2vh;
