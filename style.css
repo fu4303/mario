@@ -208,7 +208,7 @@ header {
 .project-title {
     font-size: 7vh;
     color: 7400B8;
-    position: absolute;
+    position-float: left;
     font-family: 'roboto';
     display: none;
 }
