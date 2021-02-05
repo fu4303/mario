@@ -209,7 +209,7 @@ header {
 
 .project-title {
     font-size: 7vh;
-    color: white;
+    color: 7400B8;
     position: absolute;
     top: 10vh;
     left: 5vh;
@@ -227,8 +227,8 @@ header {
 }
 
 .card {
-    background: rgba(255, 255, 255, 0.5);
-    color: #0066FF;
+    background: rgba(147, 88, 175, 0.5);
+    color: #32d2dd;
     font-family: 'Cabin', sans-serif;
     display: flex;
     flex-direction: column;
